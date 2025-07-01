@@ -37,7 +37,6 @@ root.title("SPSS Alternative - Geomagnetic Storm Prediction")
 root.geometry("600x450")
 root.configure(bg="black")
 
-# Notebook (Tabbed GUI)
 notebook = ttk.Notebook(root)
 
 page1 = ttk.Frame(notebook)
