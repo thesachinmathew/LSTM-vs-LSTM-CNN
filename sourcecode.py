@@ -22,7 +22,6 @@ lstm_cnn_accuracy = 94.17
 lstm_data = np.random.normal(lstm_accuracy, 2, 100)
 lstm_cnn_data = np.random.normal(lstm_cnn_accuracy, 2, 100)
 
-# Calculate mean, std deviation, and p-value
 lstm_mean = np.mean(lstm_data)
 lstm_std = np.std(lstm_data)
 lstm_cnn_mean = np.mean(lstm_cnn_data)
