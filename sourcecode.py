@@ -19,7 +19,6 @@ except Exception as e:
 lstm_accuracy = 87.62  
 lstm_cnn_accuracy = 94.17  
 
-# Generate simulated statistical data for visualization
 lstm_data = np.random.normal(lstm_accuracy, 2, 100)
 lstm_cnn_data = np.random.normal(lstm_cnn_accuracy, 2, 100)
 
