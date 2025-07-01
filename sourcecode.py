@@ -68,7 +68,7 @@ Standard Deviation: {lstm_cnn_std:.2f}
 stats_label = tk.Label(page2, text=stats_text, font=("Arial", 12), justify="left")
 stats_label.pack(pady=10)
 
-# Page 3: P-value Calculation
+
 page3 = ttk.Frame(notebook)
 notebook.add(page3, text="P-Value")
 
