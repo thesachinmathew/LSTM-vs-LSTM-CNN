@@ -17,7 +17,7 @@ except Exception as e:
     print(f"Error loading models: {e}")
     exit()
 
-lstm_accuracy = 87.62  # Example accuracy in percentage
+lstm_accuracy = 87.62  
 lstm_cnn_accuracy = 94.17  # Example accuracy in percentage
 
 # Generate simulated statistical data for visualization
