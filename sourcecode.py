@@ -40,7 +40,6 @@ root.configure(bg="black")
 # Notebook (Tabbed GUI)
 notebook = ttk.Notebook(root)
 
-# Page 1: Model Accuracy Comparison
 page1 = ttk.Frame(notebook)
 notebook.add(page1, text="Model Accuracies")
 
