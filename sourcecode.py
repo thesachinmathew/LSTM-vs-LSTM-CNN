@@ -27,7 +27,6 @@ lstm_std = np.std(lstm_data)
 lstm_cnn_mean = np.mean(lstm_cnn_data)
 lstm_cnn_std = np.std(lstm_cnn_data)
 
-# Perform t-test to get p-value
 t_stat, p_value = stats.ttest_ind(lstm_data, lstm_cnn_data)
 
 # Ensure p-value is within a believable range
