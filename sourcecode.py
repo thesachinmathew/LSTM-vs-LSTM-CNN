@@ -8,7 +8,6 @@ from scipy import stats
 
 custom_objects = {"mse": keras.losses.MeanSquaredError()}
 
-# Load trained models from F: drive
 try:
     lstm_model = tf.keras.models.load_model("F:/lstm_model.h5", custom_objects=custom_objects)
     lstm_cnn_model = tf.keras.models.load_model("F:/lstm_cnn_model.h5", custom_objects=custom_objects)
