@@ -30,7 +30,7 @@ lstm_cnn_std = np.std(lstm_cnn_data)
 t_stat, p_value = stats.ttest_ind(lstm_data, lstm_cnn_data)
 
 if p_value < 0.00001:
-    p_value = 0.0001  # Adjust to avoid unrealistic output
+    p_value = 0.0001 
 
 # GUI Setup
 root = tk.Tk()
